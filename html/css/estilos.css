@@ -1,0 +1,203 @@
+ /*POR ETIQUETA*/
+ body{
+     height: 900px;
+     background-color: cornflowerblue;
+     background-image: url(../imagenes/fondo.png);
+     background-size: 100% 100%;
+
+ }
+ h1{
+            color: brown;
+            font-weight: lighter;
+            margin-left: 200px;
+            margin-top: 200px;
+            text-align: center;
+            font-size: 100px;
+
+    }
+    h1 span{
+        color: white;
+    }   
+    button{
+            background-color: cornsilk;
+            color: black;
+    }
+        
+li{
+    color: white;
+}
+/*POR ID*/
+#btnInicio{
+    width: 200px;
+    height: 40px;
+    background-color: brown;
+    color: black;
+    margin-left: 45%;
+    font-weight: bold;
+    border-radius: 20px;
+    lighting-color: yellow;
+}
+/*POR ACTIVO*/
+.activo{
+    text-decoration: underline;
+    color: yellow;
+
+}
+
+#Barril{
+    bottom: 5%;
+    left: 30%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    transform: rotate(0deg);
+    animation-name: Barrilanim;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+}
+#Barril img{
+    width: 100%;
+    
+}
+#Barril2{
+    bottom: 5%;
+    left: 60%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    transform: rotate(0deg);
+    animation-name: Barrilanim2;
+    animation-duration: 3s;
+    
+}
+
+#Barril2 img{
+    width: 100%;
+    
+    
+}
+#Logo{
+    top: 2%;
+    left: 80%;
+    width: 20px;
+    height: 20px;
+    position: fixed;
+    transition: .5s ease-in all;
+    
+    
+}
+#Logo:hover{
+    transform: scale(1.2) ;
+    cursor: pointer;
+    border-bottom: 2px ;
+    border-radius: 2px;
+    top: 5%;
+}
+#Logo img{
+    width: 100%;
+    width: 200px;
+}
+
+
+
+#Kong{
+    bottom: 74%;
+    left: 65%;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    animation-name: Konganim;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count:infinite;
+
+  
+    
+}
+#Kong img{
+    width: 100%;
+    
+}
+#Mario{
+    bottom: 65%;
+    left: 20%;
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    animation-name: Marioanim;
+    animation-iteration-count:infinite;
+    animation-duration: 5s;
+
+    
+}
+#Mario img{
+    width: 100%;
+    
+}
+
+
+
+@keyframes Barrilanim {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(95deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+@keyframes Barrilanim2 {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(-95deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+@keyframes Konganim {
+    0%{
+     
+        bottom: 74%;
+        left: 65%;
+    }
+    25%{
+        bottom: 74%;
+        left: 80%;
+        transform: rotate(180deg);
+    }
+    50%{ 
+        opacity: 0.2;
+        bottom: 4%;
+        left: 57%;
+        transform: scale(0.5);
+        
+    }
+    75%{
+        transform: rotate(360deg);
+    }
+    100%{   
+        opacity: 1;
+        bottom: 90%;
+        left: 57%;
+        
+    }
+}
+@keyframes Marioanim {
+    0%{
+        bottom: 65%;
+        left: 20%;
+    }
+    50%{
+        bottom: 65%;
+        left: 70%;
+    }
+    
+}
+
+
