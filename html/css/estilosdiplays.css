@@ -1,0 +1,207 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: red;
+    min-height: 1350px;
+}
+#divicion1{
+    background-color: blue;
+    height: 60px;
+    width: 100%;
+    
+}
+#divicion1 .item{
+    background-color: royalblue;
+    width: 50px;
+    height: 20px;
+    margin-left: 10%;
+    float: left;
+    margin-top: 1.3%;
+}
+#divicion1 .item2{
+    background-color: royalblue;
+    width: 150px;
+    height: 20px;
+    margin-right: 10%;
+    float: right;
+    margin-top: 1.3%;
+}
+#divicion2{
+    background-color:yellow;
+    height: 200px;
+    width: 100%;
+}
+#divicion2 .item3{
+    background-color: royalblue;
+    width: 300px;
+    height: 150px;
+    margin-left: 42%;
+    float: left;
+    margin-top: 1.4%;
+    margin-right: 35%;
+}
+#divicion3{
+    background-color: brown;
+    height: 200px;
+    width: 100%;
+}
+#divicion3 .item4{
+    background-color: bisque;
+    height: 100px;
+    width: 5%;
+    float: left;
+    margin-left: 14%;
+    margin-right: 3%;
+    margin-top: 3.3%;
+    border-radius: 10px;
+    border-style: groove;
+}
+#divicion4{
+    background-color: darkkhaki;
+    width: 50%
+    height: 200px;
+}
+#divicion4 .item5{
+    background-color: rgb(22, 22, 20);
+    width: 50%;
+    height: 200px;  
+}
+#divicion5{
+    background-color: lawngreen;
+    height: 200px;
+    width: 100%;
+}
+#divicion5 .item6{
+ 
+    height: 200px;
+    width: 33.33%;
+    float: left;
+}
+#divicion5 .item6a{
+    background-color: rgb(94, 156, 197);
+    height: 200px;
+    width: 20%;
+    float: left;
+}
+#divicion5 .item6b{
+    background-color: rgb(48, 35, 41);
+    height: 200px;
+    width: 30%;
+    float: left;
+}
+#divicion5 .item6c{
+    background-color: rgb(71, 8, 38);
+    height: 200px;
+    width: 50%;
+    float: left;
+}
+#divicion5 .item7{
+    height: 200px;
+    width: 33.33%;
+    float: left;
+}
+#divicion5 .item7a{
+    background-color: rgb(94, 156, 197);
+    height: 200px;
+    width: 20%;
+    float: left;
+}
+#divicion5 .item7b{
+    background-color: rgb(48, 35, 41);
+    height: 200px;
+    width: 30%;
+    float: left;
+}
+#divicion5 .item7c{
+    background-color: rgb(71, 8, 38);
+    height: 200px;
+    width: 50%;
+    float: left;
+}
+#divicion5 .item8{
+    height: 200px;
+    width: 33.3%;
+    float: left;
+}
+#divicion5 .item8a{
+    background-color: rgb(94, 156, 197);
+    height: 200px;
+    width: 20%;
+    float: left;
+}
+#divicion5 .item8b{
+    background-color: rgb(48, 35, 41);
+    height: 200px;
+    width: 30%;
+    float: left;
+}
+#divicion5 .item8c{
+    background-color: rgb(71, 8, 38);
+    height: 200px;
+    width: 50%;
+    float: left;
+}
+#divicion6{
+    background-color: black;
+    height: 100px;
+}
+#divicion7{
+    background-color:gray;
+    height: 250px;
+    width: 100%;
+}
+
+#divicion7 .item9{
+    background-color:rgb(204, 21, 21);
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+#divicion7 .item10{
+    background-color:rgb(204, 21, 21);
+    height: 50px;
+    width: 50px;
+    float: right;
+    margin-top: 5%;
+    margin-right: 10%;
+}
+
+
+
+#divicion8{
+    background-color:gray;
+    height: 250px;
+    width: 100%;
+}
+#divicion8 .item11{
+    background-color:rgb(204, 21, 21);
+    height: 50px;
+    width: 50px;
+    float: right;
+    margin-top: 5%;
+    margin-right: 10%;
+}
+#divicion8 .item12{
+    background-color:rgb(204, 21, 21);
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+#divicion8 .item13{
+    background-color:rgb(204, 21, 21);
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-top: -2%;
+    margin-left: 35%;
+    transform: rotate(45deg);
+}
+
+
+

@@ -4,7 +4,7 @@
 }
 body{
     background-color: blue;
-    min-height: 600px;
+    min-height: 1500px;
 }
 #caja1{
     width: 100%;
@@ -43,6 +43,4 @@ body{
     display: inline-block;
     margin-left: 13%;
     margin-top: 30px;
-    
-
 }
