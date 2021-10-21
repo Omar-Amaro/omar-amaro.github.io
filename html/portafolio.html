@@ -10,7 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,500&family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
-    <link href="./css/all.min.css">
+    <link href="./css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header>
@@ -20,16 +21,21 @@
         <nav class="item">
             <ul>
                 <li>
-                    <a href="#">Inicio</a>
+                    <a href="#main" data-scroll>Inicio</a>
                 </li>
                 <li>
-                    <a href="#">About Us</a>
+                    <a href="#about" data-scroll>About Us</a>
                 </li>
                 <li>
-                    <a href="#">Portafolio</a>
+                    <a href="#proyecto" data-scroll>Portafolio</a>
                 </li>
                 <li>
-                    <a href="#">Contacto</a>
+                    <a href="#formulario" data-scroll>Contacto</a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fas fa-bars"></i>
+                    </a>
                 </li>
                
             </ul>
@@ -41,8 +47,8 @@
                 <source src="./imagenes/Tec.mp4" type="video/mp4">
             </video >
             <div id="overlay">
-                <h2>Bienvenidos a mi Portafolio</h2>
-                <h3>Omar Amaro Jimenez <br>
+                <h2 data-aos="fade-in">Bienvenidos a mi Portafolio</h2>
+                <h3 data-aos="fade-left">Omar Amaro Jimenez <br>
                     Estudiante <br>
                     <a href="" class="btn btnprimary">Contactar</a>
                 </h3>
@@ -54,7 +60,7 @@
 
             </h2>
             <div class="col">
-                <img src="./imagenes/barrilito.png">
+                <img src="./imagenes/barrilito.png" data-aos="flip-left">
             </div>
             <div class="col">
                 <h2>Omar Amaro Jimenez</h2>
@@ -113,7 +119,7 @@
     
     <section id="formulario">
         <div>
-            <h2>Contacto</h2>
+            <h2>Contacto <i class="fas fa-user"></i></h2>
             <h3>Nombre</h3>
             <input type="text" name="Nombre" id="nombre" placeholder="Nombre">
             <h3>Email</h3>
@@ -136,6 +142,14 @@
         Omar Amaro Jimenez
 
     </footer>
-    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+  <script>
+    AOS.init();
+    var scroll = new SmoothScroll('a[href*="#"]');
+  </script>
+
+
+
 </body>
 </html>
