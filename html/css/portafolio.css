@@ -8,7 +8,8 @@
 }
 body{
     background-color: rgb(226, 239, 250);
-    font-family: 'ZCOOL KuaiLe', cursive;
+    font-family: 'ZCOOL KuaiLe', cursive;3
+    width: 100%;
 }
 h1,h2,h3,h4{
     font-family: 'Open Sans', sans-serif;
@@ -32,6 +33,9 @@ header  nav{
     margin-right: 10%;
     width: 500px;
     
+}
+header #menumovil{
+    display: none;
 }
 header nav ul li {
     float: left;
@@ -65,9 +69,6 @@ section#main{
 #main video{
     min-width: 100%;
     min-height: 100%;
- 
-    
-    
 }
 #main #overlay{
     width: 100%;

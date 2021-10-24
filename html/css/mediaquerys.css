@@ -1,0 +1,38 @@
+@media (max-width: 500px){
+
+    header{
+        width: 57.5%;
+    }
+    header nav{
+        width: 30px;
+    }
+    header nav .item {
+        width: 100%;
+    }
+    header #menumovil{
+        display: block;
+       
+        
+    }
+    header #menuweb{
+        display: none;
+    }
+    #about .col, #contacto .col{
+        width: 100%;
+    }
+    #porta{
+        width: 100%;
+    }
+    #about, #contacto, #portafolio{
+        height: auto ;
+    }
+    #main video{
+        display: none;
+    }
+    #main #overlay{
+        background-image: url(../imagenes/fondo.png);
+    }
+    
+    
+}
+
