@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Stock</title>
+    <link rel="stylesheet" href="./estiloss/estiloss.css">
+    <link href="./css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="./css/lightbox.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./estiloss/mediaquerys.css">
+</head>
+<body>
+    <header class="header" id="inicio">
+        <nav class="menu-navegacion">
+            <a href="#SIGN-UP">SIGN-UP</a>
+            <a href="#REGISTRARSE">REGISTRARSE</a>
+            
+        </nav>
+        
+        <div class="contenedor head">
+            <h1 class="titulo">FamilyStock</h1>
+            <input type="search" name="buscar" id="buscar" placeholder="BUSCAR">
+        </div>
+        <div class="botones">
+            <nav >
+            <a  href="#imagenes" data-scroll>Galeria</a>
+            <a href="#about" data-scroll>About</a>
+            <a href="#contacto" data-scroll>Redes</a>
+        </nav></div>
+        
+    </header>
+    <section id="imagenes">
+        <div class="cont">
+            <h2 id="sub" class="subtitulo">Galeria</h2>
+            <div class="galeria">
+                <div><a href="./imageness/image 1.jpg" data-lightbox="roadtrip"> <img class="img-galeria" src="./imageness/image 1.jpg"></a>
+                    <a href="./imageness/image 2.jpg" data-lightbox="roadtrip"> <img class="img-galeria" src="./imageness/image 2.jpg"></a>
+                    <a href="./imageness/image 3.jpg" data-lightbox="roadtrip"> <img class="img-galeria" src="./imageness/image 3.jpg"></a>
+                </div>
+                <div><a href="./imageness/image 4.jpg" data-lightbox="roadtrip"> <img class="img-galeria" src="./imageness/image 4.jpg"></a>
+                    <a href="./imageness/image 5.jpg" data-lightbox="roadtrip"> <img class="img-galeria" src="./imageness/image 5.jpg"></a>
+                    <a href="./imageness/image 6.jpg" data-lightbox="roadtrip"> <img class="img-galeria" src="./imageness/image 6.jpg"></a>
+                </div>
+            
+                
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <h2>
+            La Empresa
+        </h2>
+        <div class="col">
+            <img src="./imageness/logo.PNG" data-aos="fade-in">
+        </div>
+        <div class="col">
+            <h2 >StockFamily</h2>
+            <h3>Visión</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Aliquid quod modi consectetur voluptatem ducimus mollitia, 
+                cupiditate, esse, rerum ullam molestias corporis. 
+                Voluptatibus blanditiis possimus dicta vero molestiae pariatur unde nostrum.
+            </p>
+            <h3>Misión</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Aliquam, dicta esse ab quae sit neque itaque sapiente ratione 
+                fugit incidunt! Exercitationem itaque ad repellendus sint molestiae 
+                voluptates aliquid optio ducimus.</p>
+        </div>    
+</section>
+<footer id="contacto">
+    <div class="contenedor footer-content">
+        <div class="contact-us">
+            <h2 class="brand">StockFamily</h2>
+            <p>Omar Amaro Jimenez</p>
+        </div>
+        <div class="social-media">
+            <a href="#" class="social-media-icon" >
+                <i class="fa fa-user"></i>
+            </a>
+            <a href="#" class="social-media-icon">
+                <i class="fa fa-user"></i>
+            </a>
+            <a href="#" class="social-media-icon">
+                <i class="fa fa-user"></i>
+            </a>
+        </div>
+    </div>
+    
+</footer>
+
+   
+    <script src="./scripts/menu.js"></script>
+    <script src="./js/lightbox-plus-jquery.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+  <script>
+    AOS.init();
+    var scroll = new SmoothScroll('a[href*="#"]');
+  </script>
+  
+</body>
+</html>

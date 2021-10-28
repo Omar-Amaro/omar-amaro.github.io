@@ -1,0 +1,237 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --main-color:rgba(31, 29, 29, 0.952);
+    --text-color:rgb(255, 255, 255);
+}
+body{
+    background-color: blue;
+}
+h1,h2,h3,h4{
+    font-family: 'Bebas Neue', cursive;
+}
+header{
+    height: 90vh;
+    background-image: linear-gradient(to top, #4f6b6a00 0%, #2b67699a 100%),url("../imageness/image\ 6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  
+
+}
+.titulo{
+    font-size: 10rem;
+    margin-bottom: 15px;
+    text-align: center;
+    padding-top: 5%;
+    color: white;
+    
+    
+}
+.subtitulo{
+    font-size: 5rem;
+    margin-bottom: 15px;
+    text-align: center;
+    padding-top: 1%;
+    color: white;
+    
+}
+header>div>input{
+    border-radius: 100px;
+    border-color: rgba(255, 0, 0, 0.61);
+    margin: auto;
+    padding: 0;
+    margin-top: 30px;
+    float: left;
+    margin-left: 38%;
+   
+    height: 50px;
+    width: 25%;
+    font-size: 1rem;
+}
+header>div>input::placeholder{
+    padding-left: 30px;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Righteous', cursive;
+    color: red;
+}
+header .menu-navegacion{
+    float: right;
+    margin-right: 50px;
+    font-size: 2rem;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Righteous', cursive;
+    margin-top: 25px;
+}
+header .menu-navegacion a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+    
+}
+header .botones{
+    float: left;
+    font-size: 1.5rem;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Righteous', cursive;
+    margin-top: 200px;
+    margin-left: 44%;
+}
+header .botones a{
+    background-color: rgba(255, 0, 0, 0.61);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+    
+}
+
+#imagenes{
+    background-image: linear-gradient(to top, #bd2d37 0%, #11adb8 100%);
+    width: 100%;
+    height: 700px;
+    display: grid;
+}
+.galeria>div{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    margin-left: 25.2%;
+}
+.galeria>div img{
+    display: block;
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
+    border-style: solid;
+    display:grid;
+}
+
+#about{
+    width: 80%;
+    height: 880px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: white;
+}
+#about .col{
+    float: left;
+    width: 50%;
+}
+#about > h2{
+    
+    text-align: center;
+    padding-top: 1%;
+    font-size: 4rem;
+}
+h3{
+    
+    text-align: left;
+    padding-top: 1%;
+    font-size: 2rem;
+}
+#about > .col h2{
+    text-align: center;
+    padding-top: 1%;
+    font-size: 3rem;
+}
+#about > .col p{
+    margin-top: 25px;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    text-align: justify ;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Righteous', cursive;
+    font-weight: lighter;
+    padding-bottom: 25px;
+
+}
+#about .col img{
+    width: 350px;
+    height: 650px;
+    display: block;
+    margin: 20px auto;
+}
+footer{
+    background-image: linear-gradient(135deg, #bd4555 0%, #a24b4b 100%);
+    padding: 0.1px;
+
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+.contact-us{
+    width: 40%;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+}
+
+.brand{
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.brand>p{
+    font-weight: 500;
+}
+
+.social-media{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.social-media-icon{
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+
+}
+
+.social-media-icon:hover{
+    background-color: white;
+    color: purple;
+}
+
+.social-media-icon>i{
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.line{
+    width: 90%;
+    max-height: 1200px;
+    margin: 0 auto;
+    height: 2px;
+    background-color: white;
+    margin-bottom: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
