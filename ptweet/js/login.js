@@ -1,6 +1,6 @@
 window.onload = function (){
     var boton= document.getElementById("btnaceptar");
-    var txtUsuario = document.getElementById("txtusuario");
+    var txtUsuario = document.getElementById("txtUsuario");
     var txtPassword = document.getElementById("txtPassword");
     boton.addEventListener('click', function(){
         let usuario = txtUsuario.value;
@@ -8,7 +8,7 @@ window.onload = function (){
         let arregloUsuarios=[
             { id:1, nombre:"Ludoviquito Pluche", imagen: "ludo.jpg",username: "ludop", password: "123"},
             { id:1, nombre:"Jr Pluche", imagen: "jr.jpg",username: "Jrp", password: "123"},
-            { id:1, nombre:"Federuica Pluche", imagen: "fede.jpg",username: "Fedep", password: "123"}
+            { id:1, nombre:"Federica Pluche", imagen: "fede.jpg",username: "Fedep", password: "123"}
         ];
         let encontro =false;
         
